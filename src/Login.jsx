@@ -6,8 +6,8 @@ export default function Login() {
 
     return (
         <div>
-            <Show when={loggedin())
-                fallback=<button onclick={toggle}>Log in</button>
+            <Show when={loggedin()}
+                fallback = {<button onclick={toggle}> Log in</button>}></Show>
                 <button onclick={toggle}>Log out</button>
         </div>
     );
