@@ -9,14 +9,15 @@ import Dynamo from './Dynamo';
 import Events from './Events';
 import Styles from './Styles';
 import Refs from './Refs';
+import Spreads from './Spreads';
+import Pvp from './Pvp';
+import Children from './Children';
 
 function App() {
   return (
   <>
-    <div class={styles.App}>Dobar dan, svijete!</div>
-    <Events/>
-    <Styles/>
-    <Refs/>
+    <div class={styles.App}>Dobar dan, svijete!</div>   
+  <Children/>
   </>
   );
 }
